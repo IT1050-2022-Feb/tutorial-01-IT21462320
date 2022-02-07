@@ -12,8 +12,18 @@ n -> 1-
 sum = 1+2+3+...+10 = 55 */
 
 #include <stdio.h>
-int main() {
-  
-  return 0;
-}
+int main() { //start of main function 
+
+  int s , n ; //declare variables 
+
+  printf("Enter till which number you need the sum for : ") ; //asks input 
+  scanf("%d" , &n) ; //read input 
+
+  s = n * (n + 1) / 2 ; //calculate the sum 
+
+  printf("%d" , s) ; //prints the sum 
+
+  return 0 ;
+
+} //end of main function
 
